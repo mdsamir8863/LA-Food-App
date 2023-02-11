@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: DM Sans;
+    margin: 1.5rem;
+    margin-left: 5rem;
+}
+
+nav .navRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .navRight :first-child {
+    margin-right: 2rem;
+}
+
+.NavRight,
+.navLeft,
+.Logo {
+    cursor: pointer;
+
+}
+
+.navLeft {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    color: #696969;
+}

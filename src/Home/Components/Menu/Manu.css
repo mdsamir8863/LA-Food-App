@@ -1,0 +1,31 @@
+.manuContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    margin: 6rem;
+}
+.manus{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 1rem;
+}
+.manu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    gap: 1rem;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.ManuImg{
+    width: 16rem;
+    border-radius: 2rem;
+}

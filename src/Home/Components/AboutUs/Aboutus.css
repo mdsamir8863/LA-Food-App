@@ -1,0 +1,44 @@
+.AboutContainer {
+    display: flex;
+    align-items: center;
+    background-color: #FFF9F3;
+    padding: 8rem;
+}
+
+.AboutLeft {
+    flex: 1;
+}
+
+.AboutRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.AboutImg {
+    position: relative;
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+.address {
+    width: 25rem;
+    position: absolute;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    left: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    top: 122rem;
+    z-index: 12;
+}
+
+.add {
+    display: flex;
+    gap: 1.5rem;
+}
