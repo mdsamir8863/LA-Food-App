@@ -112,6 +112,32 @@ const Manu = () => {
         </button>
         <button className="ButtonWhite">Order online</button>
       </div>
+      <div className="burgerPage">
+        <div className="burgerText">
+          <h1>Taste the most delicious burger in Los Angeles, CA</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            voluptatem pariatur! Eveniet quibusdam expedita numquam eligendi
+            quae repellat nobis temporibus voluptas doloribus.
+          </p>
+          <div className="navRight">
+            <button className="ButtonWhite">Order online</button>
+
+            <button
+              className="ButtonColor"
+              style={{ margin: "1rem", border: "1px solid white" }}
+            >
+              Reservate
+            </button>
+          </div>
+        </div>
+        <div className="burgerImg">
+          <img
+            src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c364b456b93fb50d6d_cta-restaurante-x-template.jpeg"
+            alt=""
+          />
+        </div>
+      </div>
     </div>
   );
 };

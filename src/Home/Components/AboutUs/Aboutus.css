@@ -1,12 +1,14 @@
 .AboutContainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #FFF9F3;
-    padding: 8rem;
+    padding:5rem 8rem 15rem 8rem ;
 }
 
 .AboutLeft {
     flex: 1;
+    position: relative;
 }
 
 .AboutRight {
@@ -29,16 +31,18 @@
     background-color: white;
     padding: 2rem;
     border-radius: 1rem;
-    left: 18rem;
+    left: 12rem;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 2rem;
-    top: 122rem;
-    z-index: 12;
+    top: 25rem;
+    z-index: 5;
 }
-
+.add img{
+    width: 2rem;
+}
 .add {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }

@@ -11,15 +11,18 @@
 .Black {
   color: var(--black);
 }
-.orange{
+
+.orange {
   color: #FF7629;
 }
-.strong{
+
+.strong {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--black);
 
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -27,10 +30,9 @@
 }
 
 body {
-  margin: 0rem;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 
@@ -82,7 +84,7 @@ body {
   height: 25rem;
   border-radius: 50%;
   background: #FF7629;
-  z-index: 1;
+  z-index: -1;
   top: 31%;
   right: 2%;
   filter: blur(222px);
@@ -105,8 +107,20 @@ body {
   height: 20rem;
   border-radius: 50%;
   background: #FF7629;
-  z-index: 1;
+  z-index: -1;
   top: 60%;
   left: 2%;
   filter: blur(222px);
+}
+
+.blur4 {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  background: #FF7629;
+  z-index: -1;
+  bottom: 2%;
+  right: 11%;
+  filter: blur(241px);
 }
