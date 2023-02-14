@@ -2,22 +2,23 @@ nav {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: DM Sans;
-    margin: 1.5rem;
-    margin-left: 5rem;
+    margin: 1.5rem 8rem;
 }
 
 nav .navRight {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+}
+.orderBtn{
+    margin: 0;
+    margin-right: 2rem;
+
 }
 
-nav .navRight :first-child {
-    margin-right: 2rem;
-}
 
 .NavRight,
 .navLeft,
@@ -25,6 +26,18 @@ nav .navRight :first-child {
     cursor: pointer;
 
 }
+
+.NavLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.NavLinks li {
+    list-style: none;
+}
+
 
 .navLeft {
     flex: 1;
@@ -36,4 +49,17 @@ nav .navRight :first-child {
     font-weight: 400;
     font-size: 20px;
     color: #696969;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #696969;
+}
+button a{
+    text-decoration: none;
+    list-style: none;
 }

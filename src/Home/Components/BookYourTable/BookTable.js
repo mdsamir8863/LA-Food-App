@@ -69,6 +69,7 @@ const BookTable = () => {
           <button className="ButtonColor">Book a table</button>
         </div>
       </div>
+      
     </div>
   );
 };

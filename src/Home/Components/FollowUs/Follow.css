@@ -1,0 +1,37 @@
+.FollowUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 8rem;
+
+    
+}
+
+.followBg {
+    background-color: #FFF9F3;
+    min-height: 44rem;
+    padding-top: 5rem;
+
+}
+
+.images {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.img2 img {
+    width: 20rem;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+
+.img4 img {
+    width: 9rem;
+    border-radius: 2rem;
+
+
+}
